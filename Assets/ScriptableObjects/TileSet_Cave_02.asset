@@ -1,0 +1,199 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 11413256986691a428d7db4e5d1e2612, type: 3}
+  m_Name: TileSet_Cave_02
+  m_EditorClassIdentifier: 
+  spriteLists:
+  - name: Field
+    sprite:
+    - {fileID: -38913746, guid: bdbc8b48214ed0e4491ac5553e7ad80e, type: 3}
+    - {fileID: 489579004, guid: bdbc8b48214ed0e4491ac5553e7ad80e, type: 3}
+    - {fileID: -1002206439, guid: bdbc8b48214ed0e4491ac5553e7ad80e, type: 3}
+    - {fileID: -384527515, guid: bdbc8b48214ed0e4491ac5553e7ad80e, type: 3}
+    weight: 20
+    hasCollider: 0
+    spriteRules:
+      top:
+      - 0
+      right:
+      - 0
+      down:
+      - 0
+      left:
+      - 0
+  - name: Wall_Left
+    sprite:
+    - {fileID: -1028170596, guid: bdbc8b48214ed0e4491ac5553e7ad80e, type: 3}
+    - {fileID: 734874905, guid: bdbc8b48214ed0e4491ac5553e7ad80e, type: 3}
+    weight: 3
+    hasCollider: 0
+    spriteRules:
+      top:
+      - 2
+      right:
+      - 0
+      down:
+      - 2
+      left:
+      - 0
+  - name: Wall_Right
+    sprite:
+    - {fileID: -1747168865, guid: bdbc8b48214ed0e4491ac5553e7ad80e, type: 3}
+    - {fileID: -2051739460, guid: bdbc8b48214ed0e4491ac5553e7ad80e, type: 3}
+    weight: 3
+    hasCollider: 0
+    spriteRules:
+      top:
+      - 3
+      right:
+      - 0
+      down:
+      - 3
+      left:
+      - 0
+  - name: Wall_Top_Left
+    sprite:
+    - {fileID: 688181145, guid: bdbc8b48214ed0e4491ac5553e7ad80e, type: 3}
+    weight: 1
+    hasCollider: 0
+    spriteRules:
+      top:
+      - 0
+      - 2
+      right:
+      - 1
+      down:
+      - 2
+      left:
+      - 0
+      - 1
+  - name: Wall_Top_Right
+    sprite:
+    - {fileID: -2074276093, guid: bdbc8b48214ed0e4491ac5553e7ad80e, type: 3}
+    weight: 1
+    hasCollider: 0
+    spriteRules:
+      top:
+      - 0
+      - 3
+      right:
+      - 0
+      - 1
+      down:
+      - 3
+      left:
+      - 1
+  - name: Wall_Top/Bottom
+    sprite:
+    - {fileID: -1513234483, guid: bdbc8b48214ed0e4491ac5553e7ad80e, type: 3}
+    - {fileID: 119383533, guid: bdbc8b48214ed0e4491ac5553e7ad80e, type: 3}
+    - {fileID: -1252294753, guid: bdbc8b48214ed0e4491ac5553e7ad80e, type: 3}
+    - {fileID: -1781597404, guid: bdbc8b48214ed0e4491ac5553e7ad80e, type: 3}
+    weight: 5
+    hasCollider: 0
+    spriteRules:
+      top:
+      - 0
+      right:
+      - 1
+      down:
+      - 0
+      left:
+      - 1
+  - name: Wall_Bottom_Left
+    sprite:
+    - {fileID: 1057590062, guid: bdbc8b48214ed0e4491ac5553e7ad80e, type: 3}
+    weight: 1
+    hasCollider: 0
+    spriteRules:
+      top:
+      - 0
+      - 2
+      right:
+      - 1
+      down:
+      - 0
+      left:
+      - 0
+      - 1
+  - name: Wall_Bottom_Right
+    sprite:
+    - {fileID: 936987814, guid: bdbc8b48214ed0e4491ac5553e7ad80e, type: 3}
+    weight: 1
+    hasCollider: 0
+    spriteRules:
+      top:
+      - 0
+      - 3
+      right:
+      - 0
+      - 1
+      down:
+      - 0
+      left:
+      - 1
+  - name: Wall_Bottom_Turn-Left
+    sprite:
+    - {fileID: 1585038058, guid: bdbc8b48214ed0e4491ac5553e7ad80e, type: 3}
+    weight: 0.3
+    hasCollider: 0
+    spriteRules:
+      top:
+      - 2
+      right:
+      - 0
+      down:
+      - 0
+      left:
+      - 1
+  - name: Wall_Bottom_Turn-Right
+    sprite:
+    - {fileID: 1733047133, guid: bdbc8b48214ed0e4491ac5553e7ad80e, type: 3}
+    weight: 0.3
+    hasCollider: 0
+    spriteRules:
+      top:
+      - 3
+      right:
+      - 1
+      down:
+      - 0
+      left:
+      - 0
+  - name: Wall_Bottom_Stop-Left
+    sprite:
+    - {fileID: 1009626177, guid: bdbc8b48214ed0e4491ac5553e7ad80e, type: 3}
+    weight: 0
+    hasCollider: 0
+    spriteRules:
+      top:
+      - 0
+      right:
+      - 0
+      down:
+      - 0
+      left:
+      - 1
+  - name: Wall_Bottom_Stop-Right
+    sprite:
+    - {fileID: 14996073, guid: bdbc8b48214ed0e4491ac5553e7ad80e, type: 3}
+    weight: 0
+    hasCollider: 0
+    spriteRules:
+      top:
+      - 0
+      right:
+      - 1
+      down:
+      - 0
+      left:
+      - 0

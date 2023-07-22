@@ -1,0 +1,622 @@
+{
+    "spriteLists": [
+        {
+            "name": "Sky",
+            "sprite": [
+                {
+                    "instanceID": 28012
+                },
+                {
+                    "instanceID": 28730
+                },
+                {
+                    "instanceID": 28732
+                },
+                {
+                    "instanceID": 28734
+                }
+            ],
+            "weight": 1.0,
+            "hasCollider": false,
+            "spriteRules": {
+                "top": [
+                    "sky"
+                ],
+                "right": [
+                    "sky"
+                ],
+                "down": [
+                    "sky"
+                ],
+                "left": [
+                    "sky"
+                ]
+            }
+        },
+        {
+            "name": "Ground",
+            "sprite": [
+                {
+                    "instanceID": 28740
+                },
+                {
+                    "instanceID": 28746
+                }
+            ],
+            "weight": 1.0,
+            "hasCollider": true,
+            "spriteRules": {
+                "top": [
+                    "sky"
+                ],
+                "right": [
+                    "ground"
+                ],
+                "down": [
+                    "underground"
+                ],
+                "left": [
+                    "ground"
+                ]
+            }
+        },
+        {
+            "name": "Ground with Hole",
+            "sprite": [
+                {
+                    "instanceID": 28742
+                },
+                {
+                    "instanceID": 28744
+                }
+            ],
+            "weight": 1.0,
+            "hasCollider": true,
+            "spriteRules": {
+                "top": [
+                    "sky"
+                ],
+                "right": [
+                    "ground"
+                ],
+                "down": [
+                    "hole"
+                ],
+                "left": [
+                    "ground"
+                ]
+            }
+        },
+        {
+            "name": "Ground-Corner-Top-Left",
+            "sprite": [
+                {
+                    "instanceID": 28752
+                }
+            ],
+            "weight": 1.0,
+            "hasCollider": true,
+            "spriteRules": {
+                "top": [
+                    "sky"
+                ],
+                "right": [
+                    "ground"
+                ],
+                "down": [
+                    "ground-side-left"
+                ],
+                "left": [
+                    "sky"
+                ]
+            }
+        },
+        {
+            "name": "Ground-Corner-Top-Right",
+            "sprite": [
+                {
+                    "instanceID": 28754
+                }
+            ],
+            "weight": 1.0,
+            "hasCollider": true,
+            "spriteRules": {
+                "top": [
+                    "sky"
+                ],
+                "right": [
+                    "sky"
+                ],
+                "down": [
+                    "ground-side-right"
+                ],
+                "left": [
+                    "ground"
+                ]
+            }
+        },
+        {
+            "name": "Ground-Side-Left",
+            "sprite": [
+                {
+                    "instanceID": 28736
+                }
+            ],
+            "weight": 1.0,
+            "hasCollider": true,
+            "spriteRules": {
+                "top": [
+                    "ground-side-left"
+                ],
+                "right": [
+                    "underground"
+                ],
+                "down": [
+                    "ground-side-left"
+                ],
+                "left": [
+                    "sky"
+                ]
+            }
+        },
+        {
+            "name": "Ground-Side_Right",
+            "sprite": [
+                {
+                    "instanceID": 28738
+                }
+            ],
+            "weight": 1.0,
+            "hasCollider": true,
+            "spriteRules": {
+                "top": [
+                    "ground-side-right"
+                ],
+                "right": [
+                    "sky"
+                ],
+                "down": [
+                    "ground-side-right"
+                ],
+                "left": [
+                    "underground"
+                ]
+            }
+        },
+        {
+            "name": "Ground-Corner-Middle-Left",
+            "sprite": [
+                {
+                    "instanceID": 28748
+                }
+            ],
+            "weight": 1.0,
+            "hasCollider": true,
+            "spriteRules": {
+                "top": [
+                    "ground-side-left"
+                ],
+                "right": [
+                    "underground"
+                ],
+                "down": [
+                    "underground"
+                ],
+                "left": [
+                    "ground"
+                ]
+            }
+        },
+        {
+            "name": "Ground-Corner-Middle-Right",
+            "sprite": [
+                {
+                    "instanceID": 28750
+                }
+            ],
+            "weight": 1.0,
+            "hasCollider": true,
+            "spriteRules": {
+                "top": [
+                    "ground-side-right"
+                ],
+                "right": [
+                    "ground"
+                ],
+                "down": [
+                    "underground"
+                ],
+                "left": [
+                    "underground"
+                ]
+            }
+        },
+        {
+            "name": "Underground",
+            "sprite": [
+                {
+                    "instanceID": 28786
+                }
+            ],
+            "weight": 1.0,
+            "hasCollider": false,
+            "spriteRules": {
+                "top": [
+                    "underground"
+                ],
+                "right": [
+                    "underground"
+                ],
+                "down": [
+                    "underground"
+                ],
+                "left": [
+                    "underground"
+                ]
+            }
+        },
+        {
+            "name": "Hole",
+            "sprite": [
+                {
+                    "instanceID": 28756
+                }
+            ],
+            "weight": 1.0,
+            "hasCollider": false,
+            "spriteRules": {
+                "top": [
+                    "hole"
+                ],
+                "right": [
+                    "hole"
+                ],
+                "down": [
+                    "hole"
+                ],
+                "left": [
+                    "hole"
+                ]
+            }
+        },
+        {
+            "name": "Hole-To-Right",
+            "sprite": [
+                {
+                    "instanceID": 28758
+                }
+            ],
+            "weight": 1.0,
+            "hasCollider": false,
+            "spriteRules": {
+                "top": [
+                    "underground"
+                ],
+                "right": [
+                    "hole"
+                ],
+                "down": [
+                    "underground"
+                ],
+                "left": [
+                    "underground"
+                ]
+            }
+        },
+        {
+            "name": "Hole-To-Left",
+            "sprite": [
+                {
+                    "instanceID": 28760
+                }
+            ],
+            "weight": 1.0,
+            "hasCollider": false,
+            "spriteRules": {
+                "top": [
+                    "underground"
+                ],
+                "right": [
+                    "underground"
+                ],
+                "down": [
+                    "underground"
+                ],
+                "left": [
+                    "hole"
+                ]
+            }
+        },
+        {
+            "name": "Hole-Horizontal",
+            "sprite": [
+                {
+                    "instanceID": 28762
+                }
+            ],
+            "weight": 1.0,
+            "hasCollider": false,
+            "spriteRules": {
+                "top": [
+                    "underground"
+                ],
+                "right": [
+                    "hole"
+                ],
+                "down": [
+                    "underground"
+                ],
+                "left": [
+                    "hole"
+                ]
+            }
+        },
+        {
+            "name": "Hole-Vertical+Right",
+            "sprite": [
+                {
+                    "instanceID": 28764
+                }
+            ],
+            "weight": 1.0,
+            "hasCollider": false,
+            "spriteRules": {
+                "top": [
+                    "hole"
+                ],
+                "right": [
+                    "hole"
+                ],
+                "down": [
+                    "hole"
+                ],
+                "left": [
+                    "underground"
+                ]
+            }
+        },
+        {
+            "name": "Hole-Vertical+Left",
+            "sprite": [
+                {
+                    "instanceID": 28766
+                }
+            ],
+            "weight": 1.0,
+            "hasCollider": false,
+            "spriteRules": {
+                "top": [
+                    "hole"
+                ],
+                "right": [
+                    "underground"
+                ],
+                "down": [
+                    "hole"
+                ],
+                "left": [
+                    "hole"
+                ]
+            }
+        },
+        {
+            "name": "Hole-Turn-Right-Down",
+            "sprite": [
+                {
+                    "instanceID": 28768
+                }
+            ],
+            "weight": 1.0,
+            "hasCollider": false,
+            "spriteRules": {
+                "top": [
+                    "underground"
+                ],
+                "right": [
+                    "hole"
+                ],
+                "down": [
+                    "hole"
+                ],
+                "left": [
+                    "underground"
+                ]
+            }
+        },
+        {
+            "name": "Hole-Turn-Left-Down",
+            "sprite": [
+                {
+                    "instanceID": 28770
+                }
+            ],
+            "weight": 1.0,
+            "hasCollider": false,
+            "spriteRules": {
+                "top": [
+                    "underground"
+                ],
+                "right": [
+                    "underground"
+                ],
+                "down": [
+                    "hole"
+                ],
+                "left": [
+                    "hole"
+                ]
+            }
+        },
+        {
+            "name": "Hole-Down",
+            "sprite": [
+                {
+                    "instanceID": 28772
+                }
+            ],
+            "weight": 1.0,
+            "hasCollider": false,
+            "spriteRules": {
+                "top": [
+                    "underground"
+                ],
+                "right": [
+                    "underground"
+                ],
+                "down": [
+                    "hole"
+                ],
+                "left": [
+                    "underground"
+                ]
+            }
+        },
+        {
+            "name": "Hole-Vertical",
+            "sprite": [
+                {
+                    "instanceID": 28774
+                }
+            ],
+            "weight": 1.0,
+            "hasCollider": false,
+            "spriteRules": {
+                "top": [
+                    "hole"
+                ],
+                "right": [
+                    "underground"
+                ],
+                "down": [
+                    "hole"
+                ],
+                "left": [
+                    "underground"
+                ]
+            }
+        },
+        {
+            "name": "Hole-Horizontal+Top",
+            "sprite": [
+                {
+                    "instanceID": 28776
+                }
+            ],
+            "weight": 1.0,
+            "hasCollider": false,
+            "spriteRules": {
+                "top": [
+                    "hole"
+                ],
+                "right": [
+                    "hole"
+                ],
+                "down": [
+                    "underground"
+                ],
+                "left": [
+                    "hole"
+                ]
+            }
+        },
+        {
+            "name": "Hole-Horizontal+Down",
+            "sprite": [
+                {
+                    "instanceID": 28778
+                }
+            ],
+            "weight": 1.0,
+            "hasCollider": false,
+            "spriteRules": {
+                "top": [
+                    "underground"
+                ],
+                "right": [
+                    "hole"
+                ],
+                "down": [
+                    "hole"
+                ],
+                "left": [
+                    "hole"
+                ]
+            }
+        },
+        {
+            "name": "Hole-Turn-Right-Top",
+            "sprite": [
+                {
+                    "instanceID": 28780
+                }
+            ],
+            "weight": 1.0,
+            "hasCollider": false,
+            "spriteRules": {
+                "top": [
+                    "hole"
+                ],
+                "right": [
+                    "hole"
+                ],
+                "down": [
+                    "underground"
+                ],
+                "left": [
+                    "underground"
+                ]
+            }
+        },
+        {
+            "name": "Hole-Turn-Left-Top",
+            "sprite": [
+                {
+                    "instanceID": 28782
+                }
+            ],
+            "weight": 1.0,
+            "hasCollider": false,
+            "spriteRules": {
+                "top": [
+                    "hole"
+                ],
+                "right": [
+                    "underground"
+                ],
+                "down": [
+                    "underground"
+                ],
+                "left": [
+                    "hole"
+                ]
+            }
+        },
+        {
+            "name": "Hole-Top",
+            "sprite": [
+                {
+                    "instanceID": 28784
+                }
+            ],
+            "weight": 1.0,
+            "hasCollider": false,
+            "spriteRules": {
+                "top": [
+                    "hole"
+                ],
+                "right": [
+                    "underground"
+                ],
+                "down": [
+                    "underground"
+                ],
+                "left": [
+                    "underground"
+                ]
+            }
+        }
+    ],
+    "jsonData": {
+        "instanceID": 0
+    }
+}

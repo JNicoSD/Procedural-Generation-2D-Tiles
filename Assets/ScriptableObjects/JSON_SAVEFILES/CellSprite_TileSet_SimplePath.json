@@ -1,0 +1,199 @@
+{
+    "spriteLists": [
+        {
+            "name": "Empty",
+            "sprite": [
+                {
+                    "instanceID": 28802
+                }
+            ],
+            "weight": 1.0,
+            "hasCollider": false,
+            "spriteRules": {
+                "top": [
+                    "0"
+                ],
+                "right": [
+                    "0"
+                ],
+                "down": [
+                    "0"
+                ],
+                "left": [
+                    "0"
+                ]
+            }
+        },
+        {
+            "name": "Full",
+            "sprite": [
+                {
+                    "instanceID": 28806
+                }
+            ],
+            "weight": 1.0,
+            "hasCollider": false,
+            "spriteRules": {
+                "top": [
+                    "1"
+                ],
+                "right": [
+                    "1"
+                ],
+                "down": [
+                    "1"
+                ],
+                "left": [
+                    "1"
+                ]
+            }
+        },
+        {
+            "name": "Straight_0",
+            "sprite": [
+                {
+                    "instanceID": 28810
+                }
+            ],
+            "weight": 1.0,
+            "hasCollider": false,
+            "spriteRules": {
+                "top": [
+                    "1"
+                ],
+                "right": [
+                    "0"
+                ],
+                "down": [
+                    "1"
+                ],
+                "left": [
+                    "0"
+                ]
+            }
+        },
+        {
+            "name": "Straight_1",
+            "sprite": [
+                {
+                    "instanceID": 28814
+                }
+            ],
+            "weight": 1.0,
+            "hasCollider": false,
+            "spriteRules": {
+                "top": [
+                    "0"
+                ],
+                "right": [
+                    "1"
+                ],
+                "down": [
+                    "0"
+                ],
+                "left": [
+                    "1"
+                ]
+            }
+        },
+        {
+            "name": "Turn_0",
+            "sprite": [
+                {
+                    "instanceID": 28818
+                }
+            ],
+            "weight": 1.0,
+            "hasCollider": false,
+            "spriteRules": {
+                "top": [
+                    "1"
+                ],
+                "right": [
+                    "0"
+                ],
+                "down": [
+                    "0"
+                ],
+                "left": [
+                    "1"
+                ]
+            }
+        },
+        {
+            "name": "Turn_1",
+            "sprite": [
+                {
+                    "instanceID": 28822
+                }
+            ],
+            "weight": 1.0,
+            "hasCollider": false,
+            "spriteRules": {
+                "top": [
+                    "1"
+                ],
+                "right": [
+                    "1"
+                ],
+                "down": [
+                    "0"
+                ],
+                "left": [
+                    "0"
+                ]
+            }
+        },
+        {
+            "name": "Turn_2",
+            "sprite": [
+                {
+                    "instanceID": 28826
+                }
+            ],
+            "weight": 1.0,
+            "hasCollider": false,
+            "spriteRules": {
+                "top": [
+                    "0"
+                ],
+                "right": [
+                    "1"
+                ],
+                "down": [
+                    "1"
+                ],
+                "left": [
+                    "0"
+                ]
+            }
+        },
+        {
+            "name": "Turn_2",
+            "sprite": [
+                {
+                    "instanceID": 28830
+                }
+            ],
+            "weight": 1.0,
+            "hasCollider": false,
+            "spriteRules": {
+                "top": [
+                    "0"
+                ],
+                "right": [
+                    "0"
+                ],
+                "down": [
+                    "1"
+                ],
+                "left": [
+                    "1"
+                ]
+            }
+        }
+    ],
+    "jsonData": {
+        "instanceID": 28698
+    }
+}

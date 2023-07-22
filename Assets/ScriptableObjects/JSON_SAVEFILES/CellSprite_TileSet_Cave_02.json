@@ -1,0 +1,327 @@
+{
+    "spriteLists": [
+        {
+            "name": "Field",
+            "sprite": [
+                {
+                    "instanceID": 28014
+                },
+                {
+                    "instanceID": 28016
+                },
+                {
+                    "instanceID": 28018
+                },
+                {
+                    "instanceID": 28020
+                }
+            ],
+            "weight": 20.0,
+            "hasCollider": false,
+            "spriteRules": {
+                "top": [
+                    "0"
+                ],
+                "right": [
+                    "0"
+                ],
+                "down": [
+                    "0"
+                ],
+                "left": [
+                    "0"
+                ]
+            }
+        },
+        {
+            "name": "Wall_Left",
+            "sprite": [
+                {
+                    "instanceID": 28022
+                },
+                {
+                    "instanceID": 28024
+                }
+            ],
+            "weight": 2.0,
+            "hasCollider": false,
+            "spriteRules": {
+                "top": [
+                    "2"
+                ],
+                "right": [
+                    "0"
+                ],
+                "down": [
+                    "2"
+                ],
+                "left": [
+                    "0"
+                ]
+            }
+        },
+        {
+            "name": "Wall_Right",
+            "sprite": [
+                {
+                    "instanceID": 28026
+                },
+                {
+                    "instanceID": 28028
+                }
+            ],
+            "weight": 2.0,
+            "hasCollider": false,
+            "spriteRules": {
+                "top": [
+                    "3"
+                ],
+                "right": [
+                    "0"
+                ],
+                "down": [
+                    "3"
+                ],
+                "left": [
+                    "0"
+                ]
+            }
+        },
+        {
+            "name": "Wall_Top_Left",
+            "sprite": [
+                {
+                    "instanceID": 28030
+                }
+            ],
+            "weight": 1.0,
+            "hasCollider": false,
+            "spriteRules": {
+                "top": [
+                    "0",
+                    "2"
+                ],
+                "right": [
+                    "1"
+                ],
+                "down": [
+                    "2"
+                ],
+                "left": [
+                    "0",
+                    "1"
+                ]
+            }
+        },
+        {
+            "name": "Wall_Top_Right",
+            "sprite": [
+                {
+                    "instanceID": 28032
+                }
+            ],
+            "weight": 1.0,
+            "hasCollider": false,
+            "spriteRules": {
+                "top": [
+                    "0",
+                    "3"
+                ],
+                "right": [
+                    "0",
+                    "1"
+                ],
+                "down": [
+                    "3"
+                ],
+                "left": [
+                    "1"
+                ]
+            }
+        },
+        {
+            "name": "Wall_Top/Bottom",
+            "sprite": [
+                {
+                    "instanceID": 28034
+                },
+                {
+                    "instanceID": 28036
+                },
+                {
+                    "instanceID": 28038
+                },
+                {
+                    "instanceID": 28040
+                }
+            ],
+            "weight": 5.0,
+            "hasCollider": false,
+            "spriteRules": {
+                "top": [
+                    "0"
+                ],
+                "right": [
+                    "1"
+                ],
+                "down": [
+                    "0"
+                ],
+                "left": [
+                    "1"
+                ]
+            }
+        },
+        {
+            "name": "Wall_Bottom_Left",
+            "sprite": [
+                {
+                    "instanceID": 28042
+                }
+            ],
+            "weight": 1.0,
+            "hasCollider": false,
+            "spriteRules": {
+                "top": [
+                    "0",
+                    "2"
+                ],
+                "right": [
+                    "1"
+                ],
+                "down": [
+                    "0"
+                ],
+                "left": [
+                    "0",
+                    "1"
+                ]
+            }
+        },
+        {
+            "name": "Wall_Bottom_Right",
+            "sprite": [
+                {
+                    "instanceID": 28044
+                }
+            ],
+            "weight": 1.0,
+            "hasCollider": false,
+            "spriteRules": {
+                "top": [
+                    "0",
+                    "3"
+                ],
+                "right": [
+                    "0",
+                    "1"
+                ],
+                "down": [
+                    "0"
+                ],
+                "left": [
+                    "1"
+                ]
+            }
+        },
+        {
+            "name": "Wall_Bottom_Turn-Left",
+            "sprite": [
+                {
+                    "instanceID": 28046
+                }
+            ],
+            "weight": 0.30000001192092898,
+            "hasCollider": false,
+            "spriteRules": {
+                "top": [
+                    "2"
+                ],
+                "right": [
+                    "0"
+                ],
+                "down": [
+                    "0"
+                ],
+                "left": [
+                    "1"
+                ]
+            }
+        },
+        {
+            "name": "Wall_Bottom_Turn-Right",
+            "sprite": [
+                {
+                    "instanceID": 28048
+                }
+            ],
+            "weight": 0.30000001192092898,
+            "hasCollider": false,
+            "spriteRules": {
+                "top": [
+                    "3"
+                ],
+                "right": [
+                    "1"
+                ],
+                "down": [
+                    "0"
+                ],
+                "left": [
+                    "0"
+                ]
+            }
+        },
+        {
+            "name": "Wall_Bottom_Stop-Left",
+            "sprite": [
+                {
+                    "instanceID": 28050
+                }
+            ],
+            "weight": 0.0,
+            "hasCollider": false,
+            "spriteRules": {
+                "top": [
+                    "0"
+                ],
+                "right": [
+                    "0"
+                ],
+                "down": [
+                    "0"
+                ],
+                "left": [
+                    "1"
+                ]
+            }
+        },
+        {
+            "name": "Wall_Bottom_Stop-Right",
+            "sprite": [
+                {
+                    "instanceID": 28052
+                }
+            ],
+            "weight": 0.0,
+            "hasCollider": false,
+            "spriteRules": {
+                "top": [
+                    "0"
+                ],
+                "right": [
+                    "1"
+                ],
+                "down": [
+                    "0"
+                ],
+                "left": [
+                    "0"
+                ]
+            }
+        }
+    ],
+    "jsonData": {
+        "instanceID": 0
+    }
+}

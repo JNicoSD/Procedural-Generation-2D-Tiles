@@ -1,0 +1,128 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 11413256986691a428d7db4e5d1e2612, type: 3}
+  m_Name: TileSet_SimplePath
+  m_EditorClassIdentifier: 
+  spriteLists:
+  - name: Empty
+    sprite:
+    - {fileID: 21300000, guid: 1a97d73c2fff8ea4f93eab9e10ad702d, type: 3}
+    weight: 1
+    hasCollider: 0
+    spriteRules:
+      top:
+      - 0
+      right:
+      - 0
+      down:
+      - 0
+      left:
+      - 0
+  - name: Full
+    sprite:
+    - {fileID: 21300000, guid: 468252eb82c430d4f859bc88d63672a6, type: 3}
+    weight: 1
+    hasCollider: 0
+    spriteRules:
+      top:
+      - 1
+      right:
+      - 1
+      down:
+      - 1
+      left:
+      - 1
+  - name: Straight_0
+    sprite:
+    - {fileID: 21300000, guid: 6bda9bcda3695714eb37171a584fc145, type: 3}
+    weight: 1
+    hasCollider: 0
+    spriteRules:
+      top:
+      - 1
+      right:
+      - 0
+      down:
+      - 1
+      left:
+      - 0
+  - name: Straight_1
+    sprite:
+    - {fileID: 21300000, guid: 802c6d5434dd7294f991ca099c0f18b4, type: 3}
+    weight: 1
+    hasCollider: 0
+    spriteRules:
+      top:
+      - 0
+      right:
+      - 1
+      down:
+      - 0
+      left:
+      - 1
+  - name: Turn_0
+    sprite:
+    - {fileID: 21300000, guid: 520c351960824de4fb5e1ed68a70a2fd, type: 3}
+    weight: 1
+    hasCollider: 0
+    spriteRules:
+      top:
+      - 1
+      right:
+      - 0
+      down:
+      - 0
+      left:
+      - 1
+  - name: Turn_1
+    sprite:
+    - {fileID: 21300000, guid: 86507a074161b8245aa1c7b1e76db39a, type: 3}
+    weight: 1
+    hasCollider: 0
+    spriteRules:
+      top:
+      - 1
+      right:
+      - 1
+      down:
+      - 0
+      left:
+      - 0
+  - name: Turn_2
+    sprite:
+    - {fileID: 21300000, guid: d98eac8a5d62c7f46bd03a6c08760580, type: 3}
+    weight: 1
+    hasCollider: 0
+    spriteRules:
+      top:
+      - 0
+      right:
+      - 1
+      down:
+      - 1
+      left:
+      - 0
+  - name: Turn_2
+    sprite:
+    - {fileID: 21300000, guid: 1cd251a0d6d25eb42a2f88a3d5980ffc, type: 3}
+    weight: 1
+    hasCollider: 0
+    spriteRules:
+      top:
+      - 0
+      right:
+      - 0
+      down:
+      - 1
+      left:
+      - 1
+  jsonData: {fileID: 4900000, guid: 777a4ac02f263424eb1f577276f55269, type: 3}
