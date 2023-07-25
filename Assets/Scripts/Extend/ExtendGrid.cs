@@ -59,6 +59,11 @@ public static class ExtendGrid
             generateTiles.GenerateSprites();
         }
     }
+    /// <summary>
+    /// UpdateBorders checks the adjacent cell of the borders of the new gridCell. 
+    /// If the adjacent cell of the borders has an already existing cell, use their spriteList as basis for the possible candidates of the new gridCells
+    /// </summary>
+    /// <param name="generateTiles"> Represents the GenereateTiles class. A class that manages the whole tile generation </param>
     private static void UpdateBorders(GenerateTiles generateTiles)
     {
         if(generateTiles.GridCells.ContainsKey((generateTiles.startX, generateTiles.startY + generateTiles.height)) == true && generateTiles.GridCells[(generateTiles.startX, generateTiles.startY + generateTiles.height)].IsFilled == true)
